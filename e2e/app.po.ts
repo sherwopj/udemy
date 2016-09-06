@@ -1,3 +1,5 @@
+import { browser, element, by } from 'protractor/globals';
+
 export class UdemyPage {
   navigateTo() {
     return browser.get('/');
